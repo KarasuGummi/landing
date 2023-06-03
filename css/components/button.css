@@ -1,0 +1,30 @@
+.btn-banner {
+  background-color: #0353A4;
+  padding: 12px;
+  border-radius: 50px;
+  color: #B9D6F2;
+  flex: 1 1 auto;
+  font-style: italic;
+  font-weight: bold;
+  animation: bouncy 5s infinite linear;
+  position: relative;
+  transition: 0.5s;
+  background-size: 200% auto;
+  /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #34495e 100%); */
+}
+
+.btn-banner:hover {
+  background-position: right center;
+  color: #fff;
+  font-weight: bolder;
+}
+
+@keyframes bouncy {
+  0%{top:0em}
+  40%{top:0em}
+  43%{top:-0.9em}
+  46%{top:0em}
+  48%{top:-0.4em}
+  50%{top:0em}
+  100%{top:0em;}
+  }
